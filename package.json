@@ -1,0 +1,27 @@
+{
+  "name": "@knicola/dev-config",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": "github:knicola/dev-config",
+  "bugs": "https://github.com/knicola/dev-config/issues",
+  "homepage": "https://github.com/knicola/dev-config#readme",
+  "peerDependencies": {
+    "eslint": "^6.0.0 || ^7.0.0 || ^8.0.0",
+    "typescript": ">=4.0.0"
+  },
+  "dependencies": {
+    "@rushstack/eslint-patch": "^1.2.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "@typescript-eslint/eslint-plugin": "^5.41.0",
+    "@typescript-eslint/parser": "^5.41.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "typescript": "^4.8.4"
+  }
+}
