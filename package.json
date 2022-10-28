@@ -1,7 +1,6 @@
 {
   "name": "@knicola/dev-config",
   "version": "0.1.0",
-  "main": "index.js",
   "license": "MIT",
   "repository": "github:knicola/dev-config",
   "bugs": "https://github.com/knicola/dev-config/issues",

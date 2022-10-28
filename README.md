@@ -12,7 +12,7 @@ npm i -D @knicola/dev-config typescript eslint
 require('@knicola/dev-config/eslint.patch')
 
 module.exports = {
-    extends: ['@knicola/dev-config'],
+    extends: ['./node_modules/@knicola/dev-config/eslint.base'],
     parserOptions: { tsconfigRootDir: __dirname }
 }
 ```
@@ -24,7 +24,7 @@ tsconfig.json
   "compilerOptions": {
     "types": [ "node", "jest" ],
   },
-  "include": [ "**/*.ts", "**/*.js", ]
+  "include": [ "**/*.ts", "**/*.js" ]
 }
 ```
 
