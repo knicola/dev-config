@@ -1,3 +1,5 @@
+> Moved to https://github.com/knicola/node-toolkit/tree/master/tools/dev-config
+
 # @knicola/dev-config
 
 ## Install
